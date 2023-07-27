@@ -1,0 +1,6 @@
+requests
+SQLAlchemy
+pymysql
+streamlit
+plotly
+MySQL-python
