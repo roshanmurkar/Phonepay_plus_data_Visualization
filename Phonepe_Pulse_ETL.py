@@ -20,7 +20,7 @@ from sqlalchemy import create_engine
 
 # =====================================================    /   CLONING   /     ============================================================== #
 
-"""#Specify the GitHub repository URL
+#Specify the GitHub repository URL
 response = requests.get('https://api.github.com/repos/PhonePe/pulse')
 repo = response.json()
 clone_url = repo['clone_url']
@@ -29,16 +29,8 @@ clone_url = repo['clone_url']
 clone_dir = "Phonepe Pulse data"
 
 # Clone the repository to the specified local directory
-subprocess.run(["git", "clone", clone_url, clone_dir], check=True)"""
+subprocess.run(["git", "clone", clone_url, clone_dir], check=True)
 
-# -----   /  Another method   /   -------- #
-
-# #Specify the GitHub repository URL and local directory path
-# github_url = "https://github.com/PhonePe/pulse.git"
-# local_dir = "C:/Phonepe Pulse data"
-
-# # Clone the repository to the specified local directory
-# git.Repo.clone_from(github_url, local_dir)
 
 # ===============================================    /    DATA PROCESSING     /   =========================================================== #
 
