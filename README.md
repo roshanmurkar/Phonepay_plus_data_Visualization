@@ -17,11 +17,7 @@ The India map shows the Total Transactions of PhonePe in both state wide and Dis
 The Transactions data mainly contains the total Transactions count and total amount in each state and district, I have used different graphs available in plotly to represent this data
 - State-wise study :
 The above bar graph shows the increasing order of PhonePe Transactions according to the states of India, 
-Here we can observe the top states with the h
-
-https://github.com/roshanmurkar/Phonepay_plus_data_Visualization/assets/85471797/3d727ff6-f0cb-46b5-871c-0c987c74162a
-
-ighest Transaction by looking at graph
+Here we can observe the top states with the highest Transaction by looking at graph
 
 - District-wise study :
 User can observe how transactions are happening in districts of a selected state.We can observe the 
